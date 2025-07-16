@@ -1,0 +1,287 @@
+$date
+	Wed Jul 16 11:17:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_vending_machine_dual_mode $end
+$var wire 1 ! refund_signal $end
+$var wire 1 " product $end
+$var wire 16 # change [15:0] $end
+$var wire 16 $ balance [15:0] $end
+$var reg 1 % buy $end
+$var reg 1 & clk $end
+$var reg 3 ' coin [2:0] $end
+$var reg 1 ( mode_select $end
+$var reg 1 ) refund $end
+$var reg 1 * reset $end
+$scope module uut $end
+$var wire 1 % buy $end
+$var wire 1 & clk $end
+$var wire 3 + coin [2:0] $end
+$var wire 1 ( mode_select $end
+$var wire 1 ) refund $end
+$var wire 1 * reset $end
+$var parameter 2 , COLLECT $end
+$var parameter 2 - DISPENSE $end
+$var parameter 2 . IDLE $end
+$var parameter 2 / REFUND $end
+$var reg 16 0 balance [15:0] $end
+$var reg 16 1 change [15:0] $end
+$var reg 2 2 current_state [1:0] $end
+$var reg 2 3 next_state [1:0] $end
+$var reg 1 " product $end
+$var reg 1 ! refund_signal $end
+$scope function coin_value $end
+$var reg 3 4 c [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 /
+b0 .
+b10 -
+b1 ,
+$end
+#0
+$dumpvars
+bx 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 +
+1*
+0)
+0(
+b0 '
+0&
+0%
+b0 $
+b0 #
+0"
+0!
+$end
+#5000
+1&
+#10000
+0&
+0*
+#15000
+1&
+#20000
+b1 3
+0&
+b101 '
+b101 +
+#25000
+b111110100 $
+b111110100 0
+b1 2
+b101 4
+1&
+#30000
+0&
+b0 '
+b0 +
+#35000
+1&
+#40000
+b10 3
+0&
+1%
+#45000
+b0 3
+b10 2
+1&
+#50000
+0&
+0%
+#55000
+b0 2
+b110010000 $
+b110010000 0
+1"
+1&
+#60000
+0&
+#65000
+0"
+1&
+#70000
+0&
+1%
+#75000
+1&
+#80000
+0&
+0%
+#85000
+1&
+#90000
+0&
+#95000
+1&
+#100000
+0&
+1%
+#105000
+1&
+#110000
+0&
+0%
+#115000
+1&
+#120000
+0&
+#125000
+1&
+#130000
+0&
+1)
+#135000
+1&
+#140000
+0&
+1(
+0)
+#145000
+1&
+#150000
+0&
+#155000
+1&
+#160000
+b1 3
+0&
+b100 '
+b100 +
+#165000
+b1100100 $
+b1100100 0
+b1 2
+b100 4
+1&
+#170000
+0&
+b0 '
+b0 +
+#175000
+1&
+#180000
+0&
+b100 '
+b100 +
+#185000
+b11001000 $
+b11001000 0
+1&
+#190000
+0&
+b0 '
+b0 +
+#195000
+1&
+#200000
+0&
+b11 '
+b11 +
+#205000
+b11111010 $
+b11111010 0
+b11 4
+1&
+#210000
+0&
+b0 '
+b0 +
+#215000
+1&
+#220000
+0&
+b110 '
+b110 +
+#225000
+b110 4
+1&
+#230000
+0&
+b0 '
+b0 +
+#235000
+1&
+#240000
+0&
+b10 '
+b10 +
+#245000
+b100000100 $
+b100000100 0
+b10 4
+1&
+#250000
+0&
+#255000
+b100001110 $
+b100001110 0
+1&
+#260000
+0&
+b0 '
+b0 +
+#265000
+1&
+#270000
+0&
+#275000
+1&
+#280000
+b10 3
+0&
+1%
+#285000
+b10 2
+1&
+#290000
+0&
+0%
+#295000
+b10101010 $
+b10101010 0
+1"
+1&
+#300000
+0&
+#305000
+b0 3
+b1000110 $
+b1000110 0
+1"
+1&
+#310000
+0&
+#315000
+b0 2
+b0 $
+b0 0
+b1000110 #
+b1000110 1
+0"
+1&
+#320000
+0&
+#325000
+b0 #
+b0 1
+1&
+#330000
+0&
+#335000
+1&
+#340000
+0&
